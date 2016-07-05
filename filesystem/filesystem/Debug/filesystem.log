@@ -1,0 +1,23 @@
+﻿  filesysytem.c
+c:\users\abhilash\desktop\filesystem\filesystem\filesysytem.c(86): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\abhilash\desktop\filesystem\filesystem\filesysytem.c(119): warning C4013: 'setValue' undefined; assuming extern returning int
+c:\users\abhilash\desktop\filesystem\filesystem\filesysytem.c(137): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+c:\users\abhilash\desktop\filesystem\filesystem\filesysytem.c(166): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+c:\users\abhilash\desktop\filesystem\filesystem\filesysytem.c(176): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+c:\users\abhilash\desktop\filesystem\filesystem\filesysytem.c(219): warning C4013: 'getfreespace' undefined; assuming extern returning int
+c:\users\abhilash\desktop\filesystem\filesystem\filesysytem.c(218): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+c:\users\abhilash\desktop\filesystem\filesystem\filesysytem.c(256): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+c:\users\abhilash\desktop\filesystem\filesystem\filesysytem.c(264): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+c:\users\abhilash\desktop\filesystem\filesystem\filesysytem.c(281): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+c:\users\abhilash\desktop\filesystem\filesystem\filesysytem.c(339): warning C4013: 'getValue' undefined; assuming extern returning int
+c:\users\abhilash\desktop\filesystem\filesystem\filesysytem.c(344): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+c:\users\abhilash\desktop\filesystem\filesystem\filesysytem.c(354): warning C4715: 'getfreespace': not all control paths return a value
+c:\users\abhilash\desktop\filesystem\filesystem\filesysytem.c(425): warning C4715: 'setValue': not all control paths return a value
+c:\users\abhilash\desktop\filesystem\filesystem\filesysytem.c(496): warning C4715: 'getValue': not all control paths return a value
+  filesystem.vcxproj -> C:\Users\ABHILASH\Desktop\filesystem\Debug\filesystem.exe
+  filesystem.vcxproj -> C:\Users\ABHILASH\Desktop\filesystem\Debug\filesystem.pdb (Full PDB)

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {%  load staticfiles %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}"/>
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</head>
+<body class="col-sm-12">
+<div class="jumbotron">
+	<div class="container">
+		<ol>
+            {% for l in list %}
+            <li>
+             <a href="{{ l.id }}/items/">{{ l }}</a>
+             <button class="btn btn-warning"><a href="update/{{ l.id }}">update</a></button>
+             <button type="button" class="btn btn-danger"><a href="delete/{{ l.id }}">Delete</a></button>
+            </li>
+            <br><br>
+            {% endfor %}
+            <button style="background-color: #a6e1ec"   type ="button" class="btn btn-primary btn-lg btn-block"><a  href="create/">new list</a></button>
+
+        </ol>
+	</div>
+</div>
+</body>
+</html>

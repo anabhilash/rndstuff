@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{{ username }}
+<ol>
+    {% for l in itemlist %}
+        <li>
+            {{ l.description }}
+            <a href="{{ l.id }}/update">update</a>
+            <a href="{{ l.id }}/delete">Delete</a>
+        </li>
+
+    {% endfor %}
+</ol>
+<a href="create/">new item</a>
+</body>
+</html>

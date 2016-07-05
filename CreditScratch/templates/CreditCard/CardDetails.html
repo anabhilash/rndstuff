@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Details of cardholder</h1>
+<ol>
+    {% for list in Cardlist %}
+        <li>
+            {{ list.nickName }}
+            {{ list.nameOnCard }}
+            {{ list.expireDate }}
+            {{ list.type }}
+            {{ list.cardNumber }}
+        <a href="/credit/updateDetails/{{ list.id }}">update</a>
+        <a href="/credit/deleteDetails/{{ list.id }}">delete</a>
+        </li>
+    {% endfor %}
+</ol>
+<a href="/credit/createDetails">Create New</a>
+</body>
+</html>
